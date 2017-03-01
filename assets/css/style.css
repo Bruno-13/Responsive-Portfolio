@@ -1,0 +1,253 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #333;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.brand {
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 20%;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 24px;
+  background-color: #4aaaa5;
+  border-bottom: 5px solid #777777;
+}
+
+nav {
+  float: right;
+  width: 30%;
+  background: #fff;
+  color: #777777;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #777777;
+  padding: 20px 20px;
+}
+
+nav ul li a:hover {
+  border-bottom: 5px solid #777777;
+}
+  
+h1 {
+  font-family: Georgia;
+  font-size: 24px;
+  color: #4aaaa5;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
+  margin-bottom: 10px;  
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #4aaaa5;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
+  margin-bottom: 10px; 
+}
+
+main {
+  margin-left: 70px;
+  background-image: url(assets/images/bkg1.jpg);
+}
+
+.content {
+  clear: both;
+  padding: 10px;
+  float: left;
+  margin-bottom: 20px;
+  color: #777777;
+  width: 550px;
+}
+
+.sidebar {
+  display: inline;
+  margin-right: 90px;
+  float: left;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+img.myphoto {
+  float: left;
+  margin: 0px 20px 20px 0px;
+  width: 250px;
+}
+
+.submit {
+  color: #fff;
+  background-color: #4aaaa5;
+}
+
+.box {
+  background: #fff;
+  box-shadow: 3px 3px 3px #777777;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+}
+
+
+img.logolinks {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+}
+
+img.portfolioimages {
+  width: 250px;
+  height: 200px;
+  margin: 11px;
+}
+
+form {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+
+footer {
+  font-family: arial;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  color: #fff;
+  border-top: 5px solid #4aaaa5;
+  background: #666666;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrapper { 
+    width: 600px; 
+    margin: 0 auto;
+  }
+
+  main {
+  margin-left: 10px;
+  }
+
+  .brand {
+    margin-left: 20px;
+    padding: 10px;
+  }
+
+  nav {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  .content { 
+    width: 400px;
+    margin-bottom: 10px;
+  }
+
+  .formfield {
+    width: 395px;
+  }
+
+  p {
+  font-family: arial;
+  font-size: 12px;
+  margin-bottom: 18px;
+  line-height: 15px;
+  }
+}  
+
+@media screen and (max-width: 480px) {
+
+  .wrapper { 
+    width: 480px; 
+    margin: 0 auto;
+  }
+
+  main {
+  margin-left: 10px;
+  }
+
+  .brand {
+    margin-left: 20px;
+    width: 25%;
+    padding: 10px;
+  }
+
+  nav {
+    width: 65%;
+    font-size: 12px;
+  }
+
+  .content { 
+    width: 320px; 
+    margin-bottom: 10px;
+  }
+
+  .formfield {
+    width: 315px;
+  }
+
+  img.myphoto {
+  float: left;
+  margin: 0px 20px 20px 0px;
+  width: 300px;
+  }
+
+  p {
+  font-family: arial;
+  font-size: 12px;
+  margin-bottom: 18px;
+  line-height: 15px;
+  }
+
+
+}
